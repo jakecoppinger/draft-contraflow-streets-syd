@@ -39,7 +39,7 @@ And excludes:
 - Parking aisles, private or customer only roads
 - Slip roads or highway links
 
-Query: https://overpass-turbo.eu/s/1wl5
+Query: https://overpass-turbo.eu/s/1wlc
 
 ```
 [out:json][timeout:25];
@@ -81,12 +81,22 @@ Query: https://overpass-turbo.eu/s/1wl5
   ["highway"!="secondary_link"]
   ["highway"!="tertiary_link"]
   
-  ["lanes"!=2]["lanes"!=3]
+  // Don't include major roads
+  ["highway"!="primary"]
+  ["highway"!="secondary"]
+  
+  
+  ["lanes"!=2]
+  ["lanes"!=3]
   ["lanes"!=4]
+  ["lanes"!=5]
+  ["lanes"!=6]
   ["access"!="private"]
   
   // Don't consider parking isles
   ["service"!="parking_aisle"]
+  
+  
   
   (area.region);
 );
