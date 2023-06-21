@@ -11,7 +11,7 @@ This is a map of the streets in the City of Sydney council area. The image is li
 ![](current-contraflow-22-06.png)
 
 
-The query for this map is: https://overpass-turbo.eu/s/1wjm
+View live map with zoom: https://overpass-turbo.eu/s/1wjm
 
 ```
 [out:json][timeout:25];
@@ -43,7 +43,7 @@ And excludes:
 
 ![](possible-candidates-22-06.png)
 
-Query: https://overpass-turbo.eu/s/1wlc
+View live map with zoom: https://overpass-turbo.eu/s/1wlc
 
 ```
 [out:json][timeout:25];
