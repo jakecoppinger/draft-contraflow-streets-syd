@@ -5,9 +5,11 @@ This document is a draft that may become a blog post at https://jakecoppinger.co
 
 # Current streets allowing bicycle contraflow
 
+(work in progress, incomplete list)
 This is a map of the streets in the City of Sydney council area. The image is likely already out of date - click the link below to see the latest.
 
-![](cos-all-contraflow.png)
+![](current-contraflow-22-06.png)
+
 
 The query for this map is: https://overpass-turbo.eu/s/1wjm
 
@@ -26,7 +28,7 @@ out body;
 out skel qt;
 ```
 
-# Street candidates that would make good contraflow streets
+# Street candidates that could make good contraflow streets
 Work in progress. The following query finds roads in the City of Sydney that are:
 - One way
 - Do not currently allow bicycles to travel in the opposite direction
@@ -38,6 +40,8 @@ And excludes:
 - Private roads
 - Parking aisles, private or customer only roads
 - Slip roads or highway links
+
+![](possible-candidates-22-06.png)
 
 Query: https://overpass-turbo.eu/s/1wlc
 
@@ -105,6 +109,87 @@ out body;
 out skel qt;
 ```
 
+# List of streets from above that might be suitable for bicycle contraflow
+
+## Terry Street, Surry Hills, 4.61m road width
+- Laneway behind Metro Woolworths near central
+- Would provide access from south Surry Hills to the Belmore Park cycleway (and further north into the city)
+- Already marked as cycleroute on the official City of Sydney cycling map
+
+## Sophia Street, Surry Hills, 4.9 metres width
+- Long laneway with excellent visibility
+- Gradient towards eastern end
+- No parking, a number of infrequently used driveways
+- Great link from Fitzroy St via Riley St to lower Surry Hills
+
+## Lansdown Street, Surry Hills, ? width
+- Car parking both sides
+- Connects to Crown St
+- Excellent visibility (completely straight)
+
+## Boronia Lane, Surry Hills, ? width
+- Already has contraflow marking, for pedestrians?
+- Already close to Boronia Street though (allowing contraflow in last batch)
+- Excellent visibility (completely straight)
+
+## Davis Street, Surry Hills, ? width
+- Connects to Bourke St cycleway
+- Excellent visibility (completely straight)
+- Car parking one side
+- Has continuous footpath east side, west side is Crown St (future continuous footpath?)
+
+## Rainford Street, Surry Hills, ? width
+- Similar to Davis Street
+- Excellent visibility (completely straight)
+- Car parking one side
+- Connects to Bourke St cycleway
+- Has continuous footpath east side, west side is Crown St (future continuous footpath?)
+
+## Emanuel Lane Sth of Cressy St, Roseberry, ? width
+- Excellent visibility (completely straight)
+- Alredy contraflow permitted Emanuel St north
+- No car parking
+- Similar design to Castlereagh Lane
+
+## Blackwattle Lane, Ultimo, ? metres
+- Already allows contraflow to north and south-east end
+
+# Wynyard Lane, Sydney, ? metres
+- The laneway just next to Wynyard Station
+- Would provide a north -> south route for bikes avoiding York St, Carrington St buses and George St pedestrians
+
+(work in progress, incomplete list)
+
+# List of streets with potential issues
+## High Holborn Street, Surry Hills
+- Bend in road affecting visibility
+
+## Bray Street, Newtown, ? metres (varies)
+- Changes widths a number of times
+- Existing traffic table + choker and traffic calming measures too narrow for bike + car (unsure if this is an issue)
+- Parking both sides - 45 degree and parallel
+
+# Wellington Street, Chippendale, ? metres
+- Very narrow due to parking on one side
+
+(work in progress, incomplete list)
+
+# Lanes already near an existing contraflow or non-way-way lane
+
+## Newman St, Newtown, ? metres
+- Next lane north (Railway Lane) already one way (opposite) and suitable for bikes
+- Car parking both sides so narrow in between
+- Otherwise good charactistics:
+  - Has modal filter at west end
+  - Bicycle contraflow permitted & has paint at junction of Angel St
+
+## Linthorpe St, Newtown, ? metres
+- Nearby Wilson St contraflow lane
+
+# Shephard Lane, Newtown, ? metres
+- Near Ivy Street with contraflow
+
+(work in progress, incomplete list)
 
 # Additional maps
 
